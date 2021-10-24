@@ -1,0 +1,40 @@
+/** Values **/
+
+:root {
+  --main-color: #afe957;
+  --light-color: #fff;
+  --contrast-color: black;
+  --extra-color: #5dc7f5;
+  --extra-second-color: #5e5e5e;
+}
+
+@media (max-width: 700px) {
+  .menuIcon i {
+    display: inline !important;
+    font-size: 30px;
+  }
+
+  section {
+    width: 90%;
+    margin: auto;
+    align-items: center !important;
+  }
+  .divDate {
+    left: calc(50% - 45px) !important;
+  }
+  .btnDefault {
+    text-align: center;
+  }
+  .sectionContentItem {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .divDescription {
+    color: var(--light-color);
+  }
+  .listItem {
+    display: none !important;
+  }
+}
